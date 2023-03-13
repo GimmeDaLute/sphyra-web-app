@@ -1,15 +1,17 @@
-import { Home, About, NotFound } from './pages';
+import { Home, About, Tribes, NotFound } from './pages';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import { Header, Footer } from './layouts';
+import { Header, Navbar, Footer } from './layouts';
 
 function App() {
   return (
     <div className="App">
       <Header/>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
+        <Route path="/tribes" element={<Tribes/>}></Route>
         <Route path="/*" element={<NotFound/>}></Route>
       </Routes>
       <Footer/>
