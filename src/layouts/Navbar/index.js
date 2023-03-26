@@ -8,6 +8,7 @@ export default function Navbar() {
     <ul>
       <li NavLink className={activeClass}> <Link to="/">Home</Link></li>
       <li NavLink className={activeClass}> <Link to="/about">About</Link></li>
+      <li NavLink className={activeClass}> <Link to="/csv">CSV</Link></li>
       <li NavLink className={activeClass}> <Link to="/tribes">Tribes</Link></li>
     </ul>
   )
