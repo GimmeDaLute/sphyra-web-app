@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 export default function Tribes() {
   return (
-    <div>
+    <div hidden>
     <Carousel variant="dark">
 
       <Carousel.Item>

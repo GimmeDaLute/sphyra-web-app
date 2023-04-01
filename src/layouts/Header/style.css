@@ -2,6 +2,9 @@ ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
+    padding: 0;
+    list-style-type: none;
+
 }
 
 .current {
